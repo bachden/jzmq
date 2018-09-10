@@ -12,12 +12,12 @@
 		<repository>
 			<id>central</id>
 			<name>jirawiki-releases</name>
-			<url>http://artifact.xtap.io/artifactory/libs-release-local</url>
+			<url>${ARTIFACTORY_CONTEXT_URL}/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>jirawiki-snapshots</name>
-			<url>http://artifact.xtap.io/artifactory/libs-snapshot-local</url>
+			<url>${ARTIFACTORY_CONTEXT_URL}/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
